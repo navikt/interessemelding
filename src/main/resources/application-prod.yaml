@@ -1,0 +1,4 @@
+gsak:
+  url: ${GSAK_URL}
+  brukernavn: ${GSAK_BRUKERNAVN}
+  passord: ${GSAK_PASSORD}

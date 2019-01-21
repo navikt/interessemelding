@@ -22,6 +22,8 @@ spec:
   env:
     - name: SPRING_PROFILES_ACTIVE
       value: prod
+    - name: GSAK_URL
+      value: https://oppgave.nais.adeo.no/api/v1/oppgaver
 prometheus:
   enabled: true
   path: /kontaktskjema/internal/actuator/prometheus

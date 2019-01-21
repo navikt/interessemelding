@@ -24,6 +24,8 @@ spec:
       value: preprod
     - name: FEATURE_TOGGLE_UTHENTINGSENDEPUNKT
       value: enabled
+    - name: GSAK_URL
+      value: https://oppgave.nais.preprod.local/api/v1/oppgaver
 prometheus:
   enabled: true
   path: /kontaktskjema/internal/actuator/prometheus
