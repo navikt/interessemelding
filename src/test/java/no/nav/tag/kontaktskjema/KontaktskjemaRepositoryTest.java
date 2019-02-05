@@ -50,6 +50,13 @@ public class KontaktskjemaRepositoryTest {
         kontaktskjema.setKommunenr("12345");
         kontaktskjemaRepository.save(kontaktskjema);
     }
+
+    @Test
+    public void skalKunneLagreKontaktskjemaMedBedriftsnrPa30Tegn() {
+        Kontaktskjema kontaktskjema = lagKontaktskjema();
+        kontaktskjema.setBedriftsnr("123456789012345678901234567890");
+        kontaktskjemaRepository.save(kontaktskjema);
+    }
     
     @Test
     public void skalHenteBasertPaDato() {
