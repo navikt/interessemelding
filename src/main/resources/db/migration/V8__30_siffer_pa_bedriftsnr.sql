@@ -1,1 +1,2 @@
-alter table KONTAKTSKJEMA alter column bedriftsnr varchar(30);
+alter table KONTAKTSKJEMA drop column bedriftsnr;
+alter table KONTAKTSKJEMA add bedriftsnr varchar(30);
